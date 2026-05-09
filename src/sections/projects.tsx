@@ -40,7 +40,7 @@ export function ProjectsSection() {
               <span className="gradient-text">depth and intent.</span>
             </>
           }
-          description="Each project is built end-to-end — from architecture to deployment. Spanning AI/ML, full-stack, mobile, systems and security."
+          description="Each project is built end-to-end, from architecture to deployment. Spanning AI/ML, full-stack, mobile, systems and security."
         />
 
         {/* Featured */}

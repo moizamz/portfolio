@@ -28,8 +28,8 @@ const siteUrl = "https://moizamz.dev";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${personal.name} — Software Engineer · AI/ML · Full-Stack`,
-    template: `%s — ${personal.name}`,
+    default: `${personal.name} · Software Engineer · AI/ML · Full-Stack`,
+    template: `%s · ${personal.name}`,
   },
   description: personal.summary,
   keywords: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   creator: personal.name,
   openGraph: {
     type: "website",
-    title: `${personal.name} — Software Engineer · AI/ML · Full-Stack`,
+    title: `${personal.name} · Software Engineer · AI/ML · Full-Stack`,
     description: personal.summary,
     url: siteUrl,
     siteName: `${personal.name} · Portfolio`,
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${personal.name} — Software Engineer`,
+    title: `${personal.name} · Software Engineer`,
     description: personal.summary,
   },
   robots: {

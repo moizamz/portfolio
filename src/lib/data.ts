@@ -36,9 +36,9 @@ export const personal = {
   github: "https://github.com/moizamz",
   resumeFile: "/Resume-Abdul-Moiz.pdf",
   summary:
-    "Computer Science graduate from NUST shipping production-grade software across the .NET ecosystem and the open-source MERN / MEAN stacks — from C# / ASP.NET Core services to React, Angular and Node.js systems, plus AI-powered, data-driven products. I obsess over clean architecture, performant code, and shipping experiences that feel inevitable.",
+    "Computer Science graduate from NUST shipping production-grade software across the .NET ecosystem and the open-source MERN / MEAN stacks: from C# / ASP.NET Core services to React, Angular and Node.js systems, plus AI-powered, data-driven products. I obsess over clean architecture, performant code, and shipping experiences that feel inevitable.",
   longSummary:
-    "I'm a Computer Science graduate from NUST SEECS — fluent in both the .NET ecosystem (C#, ASP.NET Core, Blazor) and modern open-source stacks (MERN and MEAN — MongoDB, Express, React / Angular, Node.js), with applied work in mobile and AI. At Bitsmiths Studio I shipped React, Node.js and ASP.NET Core systems in production; at the NUST HPC Lab I built end-to-end ML pipelines and ran experiments at scale. On the side I've shipped reinforcement-learning agents, end-to-end encrypted protocols and Flutter apps. My north star: combine strong CS fundamentals with modern engineering taste to build software that scales — and feels world-class.",
+    "I'm a Computer Science graduate from NUST SEECS, fluent in both the .NET ecosystem (C#, ASP.NET Core, Blazor) and modern open-source stacks (MERN and MEAN: MongoDB, Express, React / Angular, Node.js), with applied work in mobile and AI. At Bitsmiths Studio I shipped React, Node.js and ASP.NET Core systems in production; at the NUST HPC Lab I built end-to-end ML pipelines and ran experiments at scale. On the side I've shipped reinforcement-learning agents, end-to-end encrypted protocols and Flutter apps. My north star: combine strong CS fundamentals with modern engineering taste to build software that scales, and feels world-class.",
   availability: "Open to SDE / .NET / ML / Data Science roles · 2026",
 } as const;
 
@@ -97,7 +97,7 @@ export const skillCategories: SkillCategory[] = [
     id: "dotnet",
     title: ".NET Ecosystem",
     description:
-      "Production-grade C# services, web APIs and modern Blazor UIs — built clean and shipped fast.",
+      "Production-grade C# services, web APIs and modern Blazor UIs, built clean and shipped fast.",
     icon: Hexagon,
     accent: "from-indigo-500/35 to-violet-500/10",
     skills: [
@@ -116,7 +116,7 @@ export const skillCategories: SkillCategory[] = [
     id: "mern-mean",
     title: "MERN / MEAN Open-Stack",
     description:
-      "End-to-end JavaScript/TypeScript stacks — MongoDB, Express, React or Angular, Node.js, with Next.js for production frontends.",
+      "End-to-end JavaScript/TypeScript stacks: MongoDB, Express, React or Angular, Node.js, with Next.js for production frontends.",
     icon: Server,
     accent: "from-emerald-500/35 to-cyan-500/10",
     skills: [
@@ -245,7 +245,7 @@ export const experiences: Experience[] = [
     highlights: [
       "Shipped full-stack web applications powering real client products with React, Node.js and ASP.NET Core.",
       "Designed and implemented RESTful APIs, integrating frontend and backend across MySQL and MongoDB stores.",
-      "Owned authentication and session handling — including secure token flows and persistence.",
+      "Owned authentication and session handling, including secure token flows and persistence.",
       "Collaborated through Git workflows, code reviews and sprint planning, sharpening engineering rigor.",
     ],
     stack: ["React", "Node.js", "ASP.NET Core", "MySQL", "MongoDB", "REST", "Git"],
@@ -259,7 +259,7 @@ export const experiences: Experience[] = [
     type: "Research",
     icon: Brain,
     highlights: [
-      "Built end-to-end ML pipelines on real-world datasets — Decision Trees, Random Forests, KNN and SVM.",
+      "Built end-to-end ML pipelines on real-world datasets: Decision Trees, Random Forests, KNN and SVM.",
       "Performed data preprocessing, feature engineering and rigorous model evaluation with cross-validation.",
       "Tuned hyperparameters and benchmarked models, lifting accuracy and generalization.",
       "Worked with scikit-learn and TensorFlow inside an HPC research environment.",
@@ -295,7 +295,7 @@ export const projects: Project[] = [
     title: "Personalized LMS",
     tagline: "Reinforcement-learning powered adaptive learning",
     description:
-      "An adaptive learning management system that personalizes content delivery for each learner using reinforcement learning. The agent observes interaction signals to dynamically tune difficulty, pacing and topic order — turning a static LMS into an intelligent tutor.",
+      "An adaptive learning management system that personalizes content delivery for each learner using reinforcement learning. The agent observes interaction signals to dynamically tune difficulty, pacing and topic order, turning a static LMS into an intelligent tutor.",
     category: "AI / ML",
     stack: ["Python", "Reinforcement Learning", "TensorFlow", "Web", "REST"],
     highlights: [
@@ -309,10 +309,10 @@ export const projects: Project[] = [
   },
   {
     id: "safepak",
-    title: "SafePak — Online FIR Registration",
+    title: "SafePak: Online FIR Registration",
     tagline: "Civic-tech mobile app for digital FIRs",
     description:
-      "A citizen-first mobile application that lets users register First Information Reports digitally — improving accessibility, transparency and response time. Includes secure auth, case tracking and structured submission flows designed with real police-process constraints in mind.",
+      "A citizen-first mobile application that lets users register First Information Reports digitally, improving accessibility, transparency and response time. Includes secure auth, case tracking and structured submission flows designed with real police-process constraints in mind.",
     category: "Mobile",
     stack: ["Flutter", "Dart", "Firebase", "REST", "Hive"],
     highlights: [
@@ -346,7 +346,7 @@ export const projects: Project[] = [
     title: "E-Commerce Mobile App",
     tagline: "Cross-platform shopping with real-time backend",
     description:
-      "A polished cross-platform Flutter shopping app with full authentication, product management, cart and checkout — backed by Firebase for real-time data sync, secure storage and scalable serverless reads.",
+      "A polished cross-platform Flutter shopping app with full authentication, product management, cart and checkout, backed by Firebase for real-time data sync, secure storage and scalable serverless reads.",
     category: "Mobile",
     stack: ["Flutter", "Dart", "Firebase", "Firestore", "Auth"],
     highlights: [
@@ -362,7 +362,7 @@ export const projects: Project[] = [
     title: "Online Ticket Booking",
     tagline: "Web platform with secure seat reservation",
     description:
-      "A web-based ticket booking platform supporting interactive seat selection, booking management and secure user authentication — with a focus on race-condition-free reservation logic.",
+      "A web-based ticket booking platform supporting interactive seat selection, booking management and secure user authentication, with a focus on race-condition-free reservation logic.",
     category: "Full-Stack",
     stack: ["JavaScript", "Node.js", "Express", "MySQL", "Auth"],
     highlights: [
@@ -378,7 +378,7 @@ export const projects: Project[] = [
     title: "Real-Time Chat over Sockets",
     tagline: "TCP socket programming, low-level networking",
     description:
-      "A low-level real-time chat application built directly on TCP sockets — implementing client-server communication, message synchronization and concurrent client handling without abstractions.",
+      "A low-level real-time chat application built directly on TCP sockets, implementing client-server communication, message synchronization and concurrent client handling without abstractions.",
     category: "Systems",
     stack: ["C++", "TCP Sockets", "Concurrency", "Linux"],
     highlights: [
@@ -391,10 +391,10 @@ export const projects: Project[] = [
   },
   {
     id: "notex",
-    title: "NoteX — AI Notes",
+    title: "NoteX: AI Notes",
     tagline: "AI-assisted notes with summarization",
     description:
-      "An AI-powered notes application that summarizes long-form content, organizes topics intelligently and turns scattered thoughts into structured knowledge — designed for students and engineers.",
+      "An AI-powered notes application that summarizes long-form content, organizes topics intelligently and turns scattered thoughts into structured knowledge, designed for students and engineers.",
     category: "AI / ML",
     stack: ["AI / NLP", "Web", "REST", "Auth"],
     highlights: [
@@ -411,7 +411,7 @@ export const projects: Project[] = [
     title: "E2E Secure Message Exchange",
     tagline: "End-to-end encrypted messaging system",
     description:
-      "An end-to-end encrypted message exchange system implementing secure key exchange and modern encryption protocols — guaranteeing only the sender and intended recipient can read each message.",
+      "An end-to-end encrypted message exchange system implementing secure key exchange and modern encryption protocols, guaranteeing only the sender and intended recipient can read each message.",
     category: "Security",
     stack: ["Cryptography", "Key Exchange", "AES", "RSA", "Networking"],
     highlights: [
@@ -427,7 +427,7 @@ export const projects: Project[] = [
     title: "Pakistani Cultural Clothes Classifier",
     tagline: "Computer vision for cultural attire",
     description:
-      "A deep-learning image classifier trained to recognize traditional Pakistani cultural attire — celebrating local context where pretrained models typically fall short.",
+      "A deep-learning image classifier trained to recognize traditional Pakistani cultural attire, celebrating local context where pretrained models typically fall short.",
     category: "AI / ML",
     stack: ["Python", "TensorFlow", "CNN", "Transfer Learning"],
     highlights: [
@@ -443,7 +443,7 @@ export const projects: Project[] = [
     title: "Mushroom Edibility Classifier",
     tagline: "ML for safe foraging",
     description:
-      "A classical ML pipeline that classifies mushrooms as edible or poisonous from physical attributes — with feature engineering and model comparison across tree-based and SVM approaches.",
+      "A classical ML pipeline that classifies mushrooms as edible or poisonous from physical attributes, with feature engineering and model comparison across tree-based and SVM approaches.",
     category: "AI / ML",
     stack: ["Python", "scikit-learn", "Random Forest", "SVM"],
     highlights: [
@@ -459,7 +459,7 @@ export const projects: Project[] = [
     title: "Turing Machine Simulator",
     tagline: "Theoretical CS, brought to life",
     description:
-      "A Turing Machine simulator that lets you define states, transitions and tape, then watch the machine compute step-by-step — built to make formal computation tangible.",
+      "A Turing Machine simulator that lets you define states, transitions and tape, then watch the machine compute step-by-step, built to make formal computation tangible.",
     category: "Tools",
     stack: ["TAFL", "Algorithms", "Visualization"],
     highlights: [
@@ -483,49 +483,49 @@ export const advantages: Advantage[] = [
   {
     title: ".NET Engineering Depth",
     description:
-      "C#, ASP.NET Core, Blazor and Web APIs in production — clean architectures, MVC / MVVM and patterns that scale across enterprise teams.",
+      "C#, ASP.NET Core, Blazor and Web APIs in production: clean architectures, MVC / MVVM and patterns that scale across enterprise teams.",
     icon: Hexagon,
     accent: "from-indigo-500/40 to-indigo-500/0",
   },
   {
     title: "MERN / MEAN Open-Stack",
     description:
-      "Equally fluent on the open-source side — MongoDB, Express, React, Angular and Node.js — shipping end-to-end JavaScript/TypeScript products.",
+      "Equally fluent on the open-source side: MongoDB, Express, React, Angular and Node.js, shipping end-to-end JavaScript/TypeScript products.",
     icon: Server,
     accent: "from-emerald-500/40 to-emerald-500/0",
   },
   {
     title: "Strong CS Fundamentals",
     description:
-      "OOP, DSA, OS, networks and complexity — the foundation FAANG-tier companies hire for, drilled across NUST coursework and projects.",
+      "OOP, DSA, OS, networks and complexity: the foundation FAANG-tier companies hire for, drilled across NUST coursework and projects.",
     icon: Atom,
     accent: "from-violet-500/40 to-violet-500/0",
   },
   {
     title: "AI / ML × Data Science",
     description:
-      "I don't just train models — I ship them. Reinforcement learning, NLP, classical ML and data-driven analysis wrapped in real products.",
+      "I don't just train models. I ship them. Reinforcement learning, NLP, classical ML and data-driven analysis wrapped in real products.",
     icon: Brain,
     accent: "from-pink-500/40 to-pink-500/0",
   },
   {
     title: "Full-Stack + Mobile",
     description:
-      "From React / Angular + Node + ASP.NET Core on the web to Flutter + Firebase on mobile — one engineer, every layer of the stack.",
+      "From React / Angular + Node + ASP.NET Core on the web to Flutter + Firebase on mobile. One engineer, every layer of the stack.",
     icon: Layers,
     accent: "from-cyan-500/40 to-cyan-500/0",
   },
   {
     title: "Systems & Security",
     description:
-      "Hands-on with TCP sockets, OS concepts and end-to-end encryption — I understand what's happening below the framework.",
+      "Hands-on with TCP sockets, OS concepts and end-to-end encryption. I understand what's happening below the framework.",
     icon: ShieldCheck,
     accent: "from-emerald-500/40 to-emerald-500/0",
   },
   {
     title: "Problem-Solving Mindset",
     description:
-      "Algorithms, complexity analysis and a relentless habit of asking why — I model problems carefully before I write code.",
+      "Algorithms, complexity analysis and a relentless habit of asking why. I model problems carefully before I write code.",
     icon: Zap,
     accent: "from-amber-500/40 to-amber-500/0",
   },

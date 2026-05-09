@@ -27,7 +27,7 @@ export function ExperienceSection() {
               <span className="gradient-text">production scale.</span>
             </>
           }
-          description="Internships shipping real software with modern teams — across full-stack web and applied machine learning."
+          description="Internships shipping real software with modern teams, across full-stack web and applied machine learning."
         />
 
         <div ref={containerRef} className="relative mt-16 pl-6 md:pl-0">
@@ -67,7 +67,7 @@ export function ExperienceSection() {
                     }
                   >
                     <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted-foreground/80">
-                      {exp.start} — {exp.end}
+                      {exp.start} → {exp.end}
                     </p>
                     <p className="mt-2 hidden font-display text-sm text-muted-foreground md:block">
                       {exp.type}
@@ -103,7 +103,7 @@ export function ExperienceSection() {
                       <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-muted-foreground md:hidden">
                         <span className="inline-flex items-center gap-1.5">
                           <CalendarRange className="h-3.5 w-3.5" />
-                          {exp.start} — {exp.end}
+                          {exp.start} → {exp.end}
                         </span>
                         <span className="inline-flex items-center gap-1.5">
                           <MapPin className="h-3.5 w-3.5" />

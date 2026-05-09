@@ -39,11 +39,11 @@ export function AboutSection() {
             </div>
 
             <p className="mt-6 text-pretty text-foreground/85">
-              My coursework spans the entire CS spectrum — Data Structures &amp;
+              My coursework spans the entire CS spectrum: Data Structures &amp;
               Algorithms, OS, Computer Networks, Information &amp; Network
               Security, Web Engineering, Mobile App Development, AI, Machine
               Learning, NLP, Parallel &amp; Distributed Computing, Software
-              Engineering and TAFL. I treat every framework as a tool — and
+              Engineering and TAFL. I treat every framework as a tool, and
               never let one box me in.
             </p>
 

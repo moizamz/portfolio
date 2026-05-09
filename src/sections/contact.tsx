@@ -24,9 +24,9 @@ export function ContactSection() {
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("sending");
-    // Open mail client with prefilled body — no backend required.
+    // Open mail client with prefilled body, no backend required.
     const subject = `Portfolio inquiry from ${form.name || "Recruiter"}`;
-    const body = `${form.message}\n\n— ${form.name}\n${form.email}`;
+    const body = `${form.message}\n\nFrom: ${form.name}\n${form.email}`;
     setTimeout(() => {
       window.location.href = `mailto:${personal.email}?subject=${encodeURIComponent(
         subject,
@@ -51,7 +51,7 @@ export function ContactSection() {
               <span className="gradient-text">Let's talk.</span>
             </>
           }
-          description="Open to SDE, full-stack and ML engineer opportunities — full-time, internship or contract. I respond within 24 hours."
+          description="Open to SDE, full-stack and ML engineer opportunities: full-time, internship or contract. I respond within 24 hours."
           align="center"
           className="mx-auto"
         />

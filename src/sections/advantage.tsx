@@ -18,7 +18,7 @@ export function AdvantageSection() {
               <span className="gradient-text">first principles.</span>
             </>
           }
-          description="The qualities top engineering organizations recruit for — backed by coursework, internships and a portfolio of work that proves them out."
+          description="The qualities top engineering organizations recruit for, backed by coursework, internships and a portfolio of work that proves them out."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

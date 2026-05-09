@@ -23,7 +23,7 @@ export function SkillsSection() {
               <span className="gradient-text">engineering toolkit.</span>
             </>
           }
-          description="The languages, frameworks and concepts I reach for when building production software — across web, mobile, AI/ML and systems."
+          description="The languages, frameworks and concepts I reach for when building production software, across web, mobile, AI/ML and systems."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

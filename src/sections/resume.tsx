@@ -51,7 +51,7 @@ export function ResumeSection() {
               <span className="gradient-text">Grab the full CV.</span>
             </>
           }
-          description="A single, clean PDF — engineered to be skimmed by recruiters in 30 seconds and read in depth by hiring managers."
+          description="A single, clean PDF, engineered to be skimmed by recruiters in 30 seconds and read in depth by hiring managers."
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-12">
