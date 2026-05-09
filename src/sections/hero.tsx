@@ -228,7 +228,7 @@ function TerminalCard() {
           </p>
           <TerminalLine prompt user="moiz" host="dev" cmd="ls skills/" delay />
           <p className="pl-3 text-cyan-300/90">
-            full-stack/ · backend/ · mobile/ · ai-ml/
+            full-stack/ · backend/ · .net/ · mobile/ · ai-ml/
           </p>
           <TerminalLine prompt user="moiz" host="dev" cmd="cat status.txt" delay />
           <p className="pl-3 text-emerald-300/90">
