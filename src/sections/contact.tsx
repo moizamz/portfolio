@@ -209,8 +209,8 @@ export function ContactSection() {
                 </div>
               </div>
               <p className="mt-4 text-sm text-muted-foreground">
-                Open to remote, hybrid and relocation. Available globally for
-                async-first teams.
+                Open to remote and hybrid. Available globally for async-first
+                teams.
               </p>
             </GlassCard>
 
