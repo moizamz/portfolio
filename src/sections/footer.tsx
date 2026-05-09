@@ -61,7 +61,7 @@ export function FooterSection() {
 
         <div className="mt-8 flex flex-col items-center justify-between gap-2 border-t border-white/5 pt-6 text-[11px] uppercase tracking-[0.2em] text-muted-foreground/70 md:flex-row">
           <span>Built with Next.js · Tailwind · Framer Motion</span>
-          <span className="font-mono">v1.0.0 · Crafted in Islamabad</span>
+          <span className="font-mono">v1.0.0</span>
         </div>
       </div>
     </footer>

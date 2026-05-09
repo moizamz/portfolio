@@ -27,7 +27,7 @@ export function ExperienceSection() {
               <span className="gradient-text">production scale.</span>
             </>
           }
-          description="Internships shipping real software with modern teams, across full-stack web and applied machine learning."
+          description="Internships building real software with modern teams, across full-stack web and applied machine learning."
         />
 
         <div ref={containerRef} className="relative mt-16 pl-6 md:pl-0">

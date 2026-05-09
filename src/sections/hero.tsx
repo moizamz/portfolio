@@ -232,10 +232,10 @@ function TerminalCard() {
           </p>
           <TerminalLine prompt user="moiz" host="dev" cmd="cat status.txt" delay />
           <p className="pl-3 text-emerald-300/90">
-            building → shipping → repeat 🚀
+            build → learn → repeat 🚀
           </p>
           <p className="pl-3 text-foreground/60">
-            open to <span className="text-violet-300">SDE</span> &amp;{" "}
+            open to <span className="text-violet-300">Full-Stack Software Engineer</span> &amp;{" "}
             <span className="text-cyan-300">ML</span> roles · 2026
           </p>
           <div className="pt-1 font-mono text-foreground/80">

@@ -36,9 +36,9 @@ export const personal = {
   github: "https://github.com/moizamz",
   resumeFile: "/Resume-Abdul-Moiz.pdf",
   summary:
-    "Computer Science graduate from NUST shipping production-grade software across the .NET ecosystem and the open-source MERN / MEAN stacks: from C# / ASP.NET Core services to React, Angular and Node.js systems, plus AI-powered, data-driven products. I obsess over clean architecture, performant code, and shipping experiences that feel inevitable.",
+    "Computer Science graduate from NUST. I work across the .NET ecosystem (C#, ASP.NET Core) and the open-source MERN / MEAN stacks (React, Angular, Node.js), with a steady stream of AI and data-driven projects on the side. The things I care about: clean architecture, code that performs and interfaces that don't get in your way.",
   longSummary:
-    "I'm a Computer Science graduate from NUST SEECS, fluent in both the .NET ecosystem (C#, ASP.NET Core, Blazor) and modern open-source stacks (MERN and MEAN: MongoDB, Express, React / Angular, Node.js), with applied work in mobile and AI. At Bitsmiths Studio I shipped React, Node.js and ASP.NET Core systems in production; at the NUST HPC Lab I built end-to-end ML pipelines and ran experiments at scale. On the side I've shipped reinforcement-learning agents, end-to-end encrypted protocols and Flutter apps. My north star: combine strong CS fundamentals with modern engineering taste to build software that scales, and feels world-class.",
+    "Computer Science graduate from NUST SEECS. My work spans the .NET ecosystem (C#, ASP.NET Core, Blazor) and the open-source MERN and MEAN stacks (MongoDB, Express, React or Angular, Node.js), plus hands-on projects in mobile and AI. I interned at Bitsmiths Studio, where I worked on React, Node.js and ASP.NET Core systems alongside the team, and at the NUST HPC Lab, where I built end-to-end ML pipelines and ran experiments on real datasets. Most of my other projects came out of coursework: reinforcement-learning agents, end-to-end encrypted protocols and Flutter apps. What I care about is doing the basics well: solid CS fundamentals, clean code and software that holds up under real use.",
   availability: "Open to SDE / .NET / ML / Data Science roles · 2026",
 } as const;
 
@@ -65,7 +65,7 @@ export const rotatingRoles: RoleTitle[] = [
 
 export const stats: { label: string; value: string; suffix?: string }[] = [
   { label: "Years building software", value: "4", suffix: "+" },
-  { label: "Production projects shipped", value: "11", suffix: "+" },
+  { label: "Engineering projects built", value: "11", suffix: "+" },
   { label: "Internships at top tech labs", value: "2" },
   { label: "Tech stacks mastered", value: "12", suffix: "+" },
 ];
@@ -97,7 +97,7 @@ export const skillCategories: SkillCategory[] = [
     id: "dotnet",
     title: ".NET Ecosystem",
     description:
-      "Production-grade C# services, web APIs and modern Blazor UIs, built clean and shipped fast.",
+      "Production-grade C# services, web APIs and modern Blazor UIs, built clean with patterns that scale.",
     icon: Hexagon,
     accent: "from-indigo-500/35 to-violet-500/10",
     skills: [
@@ -243,7 +243,7 @@ export const experiences: Experience[] = [
     type: "Internship",
     icon: Briefcase,
     highlights: [
-      "Shipped full-stack web applications powering real client products with React, Node.js and ASP.NET Core.",
+      "Built full-stack web applications powering real client products with React, Node.js and ASP.NET Core.",
       "Designed and implemented RESTful APIs, integrating frontend and backend across MySQL and MongoDB stores.",
       "Owned authentication and session handling, including secure token flows and persistence.",
       "Collaborated through Git workflows, code reviews and sprint planning, sharpening engineering rigor.",
@@ -490,7 +490,7 @@ export const advantages: Advantage[] = [
   {
     title: "MERN / MEAN Open-Stack",
     description:
-      "Equally fluent on the open-source side: MongoDB, Express, React, Angular and Node.js, shipping end-to-end JavaScript/TypeScript products.",
+      "Equally fluent on the open-source side: MongoDB, Express, React, Angular and Node.js, building end-to-end JavaScript/TypeScript projects.",
     icon: Server,
     accent: "from-emerald-500/40 to-emerald-500/0",
   },
@@ -504,7 +504,7 @@ export const advantages: Advantage[] = [
   {
     title: "AI / ML × Data Science",
     description:
-      "I don't just train models. I ship them. Reinforcement learning, NLP, classical ML and data-driven analysis wrapped in real products.",
+      "I don't just train models, I integrate them. Reinforcement learning, NLP, classical ML and data-driven analysis applied across hands-on projects.",
     icon: Brain,
     accent: "from-pink-500/40 to-pink-500/0",
   },
@@ -530,7 +530,7 @@ export const advantages: Advantage[] = [
     accent: "from-amber-500/40 to-amber-500/0",
   },
   {
-    title: "Ship-Fast, Learn-Faster",
+    title: "Build-Fast, Learn-Faster",
     description:
       "11+ projects across 6 stacks in 4 years. New languages, frameworks and paradigms picked up at engineering velocity.",
     icon: Rocket,
