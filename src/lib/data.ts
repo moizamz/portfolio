@@ -40,7 +40,7 @@ export const personal = {
     "Computer Science graduate from NUST. I work across the .NET ecosystem (C#, ASP.NET Core) and the open-source MERN / MEAN stacks (React, Angular, Node.js), with a steady stream of AI and data-driven projects on the side. The things I care about: clean architecture, code that performs and interfaces that don't get in your way.",
   longSummary:
     "Computer Science graduate from NUST SEECS. My work spans the .NET ecosystem (C#, ASP.NET Core, Blazor) and the open-source MERN and MEAN stacks (MongoDB, Express, React or Angular, Node.js), plus hands-on projects in mobile and AI. I interned at Bitsmiths Studio, where I worked on React, Node.js and ASP.NET Core systems alongside the team, and at the NUST HPC Lab, where I built end-to-end ML pipelines and ran experiments on real datasets. Most of my other projects came out of coursework: reinforcement-learning agents, end-to-end encrypted protocols and Flutter apps. What I care about is doing the basics well: solid CS fundamentals, clean code and software that holds up under real use.",
-  availability: "Open to SDE / .NET / ML / Data Science roles · 2026",
+  availability: "Open to Software Engineer / .NET / AI/ ML / Data Science roles",
 } as const;
 
 export type RoleTitle =

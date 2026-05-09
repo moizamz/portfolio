@@ -51,7 +51,7 @@ export function ContactSection() {
               <span className="gradient-text">Let's talk.</span>
             </>
           }
-          description="Open to SDE, full-stack and ML engineer opportunities: full-time, internship or contract. I respond within 24 hours."
+          description="Open to Software Engineer, full-stack and AI/ ML engineer opportunities: full-time or contract. I respond within 24 hours."
           align="center"
           className="mx-auto"
         />
