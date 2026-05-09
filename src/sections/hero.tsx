@@ -236,7 +236,7 @@ function TerminalCard() {
           </p>
           <p className="pl-3 text-foreground/60">
             open to <span className="text-violet-300">Full-Stack Software Engineer</span> &amp;{" "}
-            <span className="text-cyan-300">AI/ML</span> roles · 2026
+            <span className="text-cyan-300">AI/ ML</span> roles · 2026
           </p>
           <div className="pt-1 font-mono text-foreground/80">
             <span className="text-emerald-400">moiz@dev</span>

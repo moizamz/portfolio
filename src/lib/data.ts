@@ -108,14 +108,13 @@ export const skillCategories: SkillCategory[] = [
       "Blazor",
       "Web APIs",
       "Entity Framework",
-      "MVC / MVVM",
-      "LINQ",
+      "MVC",
       "Dependency Injection",
     ],
   },
   {
     id: "mern-mean",
-    title: "MERN / MEAN Open-Stack",
+    title: "MERN / MEAN",
     description:
       "End-to-end JavaScript/TypeScript stacks: MongoDB, Express, React or Angular, Node.js, with Next.js for production frontends.",
     icon: Server,
@@ -489,7 +488,7 @@ export const advantages: Advantage[] = [
     accent: "from-indigo-500/40 to-indigo-500/0",
   },
   {
-    title: "MERN / MEAN Open-Stack",
+    title: "MERN / MEAN",
     description:
       "Equally fluent on the open-source side: MongoDB, Express, React, Angular and Node.js, building end-to-end JavaScript/TypeScript projects.",
     icon: Server,
