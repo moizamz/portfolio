@@ -51,7 +51,7 @@ export function ContactSection() {
               <span className="gradient-text">Let's talk.</span>
             </>
           }
-          description="Open to Software Engineer, full-stack and AI/ ML engineer opportunities: full-time or contract. I respond within 24 hours."
+          description="Open to Full-Stack Software Engineer, Backend and AI/ ML engineer opportunities: full-time or contract. I respond within 24 hours."
           align="center"
           className="mx-auto"
         />
@@ -209,8 +209,8 @@ export function ContactSection() {
                 </div>
               </div>
               <p className="mt-4 text-sm text-muted-foreground">
-                Open to remote and hybrid. Available globally for async-first
-                teams.
+                Open to remote and hybrid roles. Available globally for
+                async-first teams.
               </p>
             </GlassCard>
 
