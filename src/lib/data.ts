@@ -35,6 +35,7 @@ export const personal = {
   linkedin: "https://linkedin.com/in/moizamz",
   github: "https://github.com/moizamz",
   resumeFile: "/Resume-Abdul-Moiz.pdf",
+  photo: "/abdul-moiz.png",
   summary:
     "Computer Science graduate from NUST. I work across the .NET ecosystem (C#, ASP.NET Core) and the open-source MERN / MEAN stacks (React, Angular, Node.js), with a steady stream of AI and data-driven projects on the side. The things I care about: clean architecture, code that performs and interfaces that don't get in your way.",
   longSummary:
