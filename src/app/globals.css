@@ -44,6 +44,48 @@
     background-attachment: fixed;
   }
 
+  /* ---------- Mobile performance overrides ---------- */
+  @media (max-width: 768px) {
+    /* Drop body radial gradients & background-attachment: fixed
+       (extremely slow on iOS Safari). */
+    body {
+      background-image: none;
+      background-attachment: scroll;
+    }
+
+    /* backdrop-filter: blur() is the single most expensive thing for mobile
+       GPUs. Disable it entirely — the semi-transparent backgrounds still
+       read as "glass" without paying the blur cost. */
+    .backdrop-blur,
+    .backdrop-blur-sm,
+    .backdrop-blur-md,
+    .backdrop-blur-lg,
+    .backdrop-blur-xl,
+    .backdrop-blur-2xl,
+    .backdrop-blur-3xl {
+      backdrop-filter: none !important;
+      -webkit-backdrop-filter: none !important;
+    }
+
+    /* The .glass utilities also force backdrop-filter via Tailwind classes
+       above, so we're covered. Keep their borders/bg but skip the blur. */
+
+    /* Continuous CSS animations (spinning conic gradients on logos, etc.)
+       are fine in small doses but add up. Pause the largest ones. */
+    .animate-spin-slow,
+    .animate-aurora-move {
+      animation: none !important;
+    }
+
+    /* Heavy filter blur on huge decorative blobs hurts mobile compositing. */
+    .blur-3xl {
+      filter: blur(32px);
+    }
+    .blur-2xl {
+      filter: blur(20px);
+    }
+  }
+
   ::selection {
     background: rgba(139, 92, 246, 0.35);
     color: white;

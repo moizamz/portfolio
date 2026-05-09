@@ -30,12 +30,12 @@ const highlights = [
   {
     icon: Code2,
     label: "Stacks",
-    value: ".NET · Web · Mobile · ML",
+    value: ".NET · MERN · MEAN · Mobile",
   },
   {
     icon: Brain,
     label: "Focus",
-    value: ".NET · AI/ML · Data Science",
+    value: "Full-Stack · AI/ML · Data Science",
   },
 ];
 

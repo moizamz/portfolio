@@ -15,6 +15,7 @@ import {
   MessagesSquare,
   Phone,
   Rocket,
+  Server,
   ShieldCheck,
   Smartphone,
   Sparkles,
@@ -26,7 +27,7 @@ export const personal = {
   name: "Abdul Moiz",
   shortName: "Moiz",
   initials: "AM",
-  headline: "Software Engineer · .NET · AI/ML · Full-Stack",
+  headline: "Software Engineer · .NET · MERN / MEAN · AI/ML",
   location: "Islamabad / Lahore, Pakistan",
   locations: ["Islamabad", "Lahore"],
   email: "moizamz.dev@gmail.com",
@@ -35,9 +36,9 @@ export const personal = {
   github: "https://github.com/moizamz",
   resumeFile: "/Resume-Abdul-Moiz.pdf",
   summary:
-    "Computer Science engineer at NUST building production-grade software across the .NET ecosystem and the modern full stack — from C# / ASP.NET Core services and secure systems to AI-powered, data-driven products. I obsess over clean architecture, performant code, and shipping experiences that feel inevitable.",
+    "Computer Science graduate from NUST shipping production-grade software across the .NET ecosystem and the open-source MERN / MEAN stacks — from C# / ASP.NET Core services to React, Angular and Node.js systems, plus AI-powered, data-driven products. I obsess over clean architecture, performant code, and shipping experiences that feel inevitable.",
   longSummary:
-    "I'm a final-year CS undergraduate at NUST SEECS who lives at the intersection of .NET engineering, modern web, mobile and applied AI. At Bitsmiths Studio I shipped C#, ASP.NET Core and React systems in production; at the NUST HPC Lab I built end-to-end ML pipelines and ran experiments at scale. On the side I've shipped reinforcement-learning agents, end-to-end encrypted protocols and Flutter apps. My north star: combine strong CS fundamentals with modern engineering taste to build software that scales — and feels world-class.",
+    "I'm a Computer Science graduate from NUST SEECS — fluent in both the .NET ecosystem (C#, ASP.NET Core, Blazor) and modern open-source stacks (MERN and MEAN — MongoDB, Express, React / Angular, Node.js), with applied work in mobile and AI. At Bitsmiths Studio I shipped React, Node.js and ASP.NET Core systems in production; at the NUST HPC Lab I built end-to-end ML pipelines and ran experiments at scale. On the side I've shipped reinforcement-learning agents, end-to-end encrypted protocols and Flutter apps. My north star: combine strong CS fundamentals with modern engineering taste to build software that scales — and feels world-class.",
   availability: "Open to SDE / .NET / ML / Data Science roles · 2026",
 } as const;
 
@@ -112,28 +113,30 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
+    id: "mern-mean",
+    title: "MERN / MEAN Open-Stack",
+    description:
+      "End-to-end JavaScript/TypeScript stacks — MongoDB, Express, React or Angular, Node.js, with Next.js for production frontends.",
+    icon: Server,
+    accent: "from-emerald-500/35 to-cyan-500/10",
+    skills: [
+      "MongoDB",
+      "Express",
+      "React",
+      "Angular",
+      "Node.js",
+      "Next.js",
+      "REST APIs",
+      "JWT Auth",
+    ],
+  },
+  {
     id: "languages",
     title: "Languages",
     description: "Idiomatic across compiled, managed and dynamic languages.",
     icon: Code2,
     accent: "from-violet-500/30 to-fuchsia-500/10",
     skills: ["C#", "C / C++", "Python", "TypeScript", "JavaScript", "Java", "Dart"],
-  },
-  {
-    id: "frameworks",
-    title: "Web & Frameworks",
-    description: "Modern frontends, Node services and cross-platform mobile.",
-    icon: Layers,
-    accent: "from-cyan-500/30 to-sky-500/10",
-    skills: [
-      "Next.js",
-      "React",
-      "Angular",
-      "Node.js",
-      "Express",
-      "Flutter",
-      "RESTful APIs",
-    ],
   },
   {
     id: "ai",
@@ -485,6 +488,13 @@ export const advantages: Advantage[] = [
     accent: "from-indigo-500/40 to-indigo-500/0",
   },
   {
+    title: "MERN / MEAN Open-Stack",
+    description:
+      "Equally fluent on the open-source side — MongoDB, Express, React, Angular and Node.js — shipping end-to-end JavaScript/TypeScript products.",
+    icon: Server,
+    accent: "from-emerald-500/40 to-emerald-500/0",
+  },
+  {
     title: "Strong CS Fundamentals",
     description:
       "OOP, DSA, OS, networks and complexity — the foundation FAANG-tier companies hire for, drilled across NUST coursework and projects.",
@@ -501,7 +511,7 @@ export const advantages: Advantage[] = [
   {
     title: "Full-Stack + Mobile",
     description:
-      "From React + Node + ASP.NET Core on the web to Flutter + Firebase on mobile — one engineer, every layer of the stack.",
+      "From React / Angular + Node + ASP.NET Core on the web to Flutter + Firebase on mobile — one engineer, every layer of the stack.",
     icon: Layers,
     accent: "from-cyan-500/40 to-cyan-500/0",
   },

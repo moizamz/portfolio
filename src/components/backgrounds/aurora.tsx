@@ -1,8 +1,28 @@
 "use client";
 
+import { useReducedEffects } from "@/lib/hooks";
 import { cn } from "@/lib/utils";
 
 export function Aurora({ className }: { className?: string }) {
+  const reduced = useReducedEffects();
+
+  // Lightweight static gradient on mobile / touch / reduced motion.
+  // Avoids `blur-3xl` on huge rotating elements (extremely expensive on mobile GPUs).
+  if (reduced) {
+    return (
+      <div
+        aria-hidden
+        className={cn(
+          "pointer-events-none absolute inset-0 -z-10 overflow-hidden",
+          className,
+        )}
+      >
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_0%,rgba(139,92,246,0.18),transparent_60%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/40 to-background" />
+      </div>
+    );
+  }
+
   return (
     <div
       aria-hidden

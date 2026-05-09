@@ -9,9 +9,11 @@ import { Spotlight } from "@/components/backgrounds/spotlight";
 import { Button } from "@/components/ui/button";
 import { Magnetic } from "@/components/ui/magnetic";
 import { personal, rotatingRoles, socials } from "@/lib/data";
+import { useReducedEffects } from "@/lib/hooks";
 
 export function HeroSection() {
   const [roleIdx, setRoleIdx] = useState(0);
+  const reducedEffects = useReducedEffects();
 
   useEffect(() => {
     const id = setInterval(
@@ -30,10 +32,12 @@ export function HeroSection() {
       <AnimatedGrid />
       <ParticleField />
       <Spotlight className="-top-40 left-1/2 -translate-x-1/2" />
-      <Spotlight
-        className="bottom-[-30vh] right-[-20vw]"
-        fill="rgba(34,211,238,0.25)"
-      />
+      {!reducedEffects && (
+        <Spotlight
+          className="bottom-[-30vh] right-[-20vw]"
+          fill="rgba(34,211,238,0.25)"
+        />
+      )}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-40 bg-gradient-to-b from-transparent to-background"
@@ -224,7 +228,7 @@ function TerminalCard() {
           </p>
           <TerminalLine prompt user="moiz" host="dev" cmd="ls skills/" delay />
           <p className="pl-3 text-cyan-300/90">
-            ai-ml/ · full-stack/ · mobile/ · systems/ · security/ · dsa/
+            full-stack/ · backend/ · mobile/ · ai-ml/
           </p>
           <TerminalLine prompt user="moiz" host="dev" cmd="cat status.txt" delay />
           <p className="pl-3 text-emerald-300/90">

@@ -50,7 +50,7 @@ export function AboutSection() {
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
               <PillarChip
                 icon={<Sparkles className="h-3.5 w-3.5" />}
-                text=".NET Engineering Depth"
+                text=".NET · MERN / MEAN"
               />
               <PillarChip
                 icon={<Sparkles className="h-3.5 w-3.5" />}

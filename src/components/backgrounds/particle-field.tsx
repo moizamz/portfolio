@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useReducedEffects } from "@/lib/hooks";
 import { cn } from "@/lib/utils";
 
 type ParticleFieldProps = {
@@ -25,17 +26,22 @@ export function ParticleField({
   connect = true,
 }: ParticleFieldProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const reducedEffects = useReducedEffects();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
 
   useEffect(() => {
+    if (!mounted) return;
+    // Skip the entire particle simulation on mobile / touch / reduced-motion.
+    // It's the single most expensive thing on the page.
+    if (reducedEffects) return;
+
     const canvas = canvasRef.current;
     if (!canvas) return;
 
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
-
-    const reduced =
-      typeof window !== "undefined" &&
-      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     let dpr = Math.min(window.devicePixelRatio || 1, 2);
     let width = canvas.clientWidth;
@@ -143,15 +149,9 @@ export function ParticleField({
 
     resize();
     window.addEventListener("resize", resize);
-    if (!reduced) {
-      window.addEventListener("mousemove", onMove);
-      window.addEventListener("mouseleave", onLeave);
-      raf = requestAnimationFrame(step);
-    } else {
-      // single static frame
-      step();
-      cancelAnimationFrame(raf);
-    }
+    window.addEventListener("mousemove", onMove);
+    window.addEventListener("mouseleave", onLeave);
+    raf = requestAnimationFrame(step);
 
     return () => {
       cancelAnimationFrame(raf);
@@ -159,7 +159,9 @@ export function ParticleField({
       window.removeEventListener("mousemove", onMove);
       window.removeEventListener("mouseleave", onLeave);
     };
-  }, [density, connect]);
+  }, [density, connect, mounted, reducedEffects]);
+
+  if (reducedEffects) return null;
 
   return (
     <canvas
