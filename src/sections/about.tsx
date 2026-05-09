@@ -41,7 +41,7 @@ export function AboutSection() {
                       BS Computer Science · NUST SEECS
                     </h3>
                     <p className="text-sm text-muted-foreground">
-                      Islamabad, Pakistan · Class of May 2026
+                      Islamabad, Pakistan · 2026
                     </p>
                   </div>
                 </div>
